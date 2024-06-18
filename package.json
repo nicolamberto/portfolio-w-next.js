@@ -9,14 +9,33 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "clsx": "^2.1.1",
+    "framer-motion": "^11.2.10",
+    "next": "14.2.3",
     "react": "^18",
     "react-dom": "^18",
-    "next": "14.2.3"
+    "react-icons": "^5.2.1",
+    "react-intersection-observer": "^9.10.3"
   },
   "devDependencies": {
-    "postcss": "^8",
-    "tailwindcss": "^3.4.1",
     "eslint": "^8",
-    "eslint-config-next": "14.2.3"
-  }
+    "eslint-config-next": "14.2.3",
+    "postcss": "^8",
+    "tailwindcss": "^3.4.1"
+  },
+  "description": "This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).",
+  "main": "tailwind.config.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nicolamberto/portfolio-w-next.js.git"
+  },
+  "author": "Nicolas Lamberto",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nicolamberto/portfolio-w-next.js/issues"
+  },
+  "homepage": "https://github.com/nicolamberto/portfolio-w-next.js#readme"
 }
