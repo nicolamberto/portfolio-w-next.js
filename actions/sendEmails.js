@@ -1,4 +1,4 @@
-"use server"
+/* "use server"
 
 import { Resend } from "resend";
 
@@ -18,3 +18,4 @@ export const sendEmail = async (formData)=> {
     })
 
 }
+ */

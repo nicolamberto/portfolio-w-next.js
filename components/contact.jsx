@@ -5,7 +5,7 @@ import SectionHeading from './section-heading'
 import { FaPaperPlane } from 'react-icons/fa'
 import { motion } from 'framer-motion'
 import useNavigationStyle from '@/hooks/header-style-navigation'
-import { sendEmail } from '@/actions/sendEmails' /* Importacion para libreria de terceros que permite enviar un mail a traves de un form */
+/* import { sendEmail } from '@/actions/sendEmails' */ /* Importacion para libreria de terceros que permite enviar un mail a traves de un form */
 
 export default function Contact() {
 
