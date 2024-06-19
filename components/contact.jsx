@@ -5,7 +5,7 @@ import SectionHeading from './section-heading'
 import { FaPaperPlane } from 'react-icons/fa'
 import { motion } from 'framer-motion'
 import useNavigationStyle from '@/hooks/header-style-navigation'
-import { sendEmail } from '@/actions/sendEmails'
+import { sendEmail } from '@/actions/sendEmails' /* Importacion para libreria de terceros que permite enviar un mail a traves de un form */
 
 export default function Contact() {
 
@@ -23,11 +23,16 @@ export default function Contact() {
             viewport={{ once: true }}
         >
             <SectionHeading>Contact Me</SectionHeading>
-            <p className=' text-gray-700 -mt-6 dark:text-white/70'>Please contact me directly at <a className='underline' href='mailto:nicolaslamberto2840@gmail.com'>nicolaslamberto2840@gmail.com</a> or trough this form</p>
+            <p className=' text-gray-700 -mt-6 dark:text-white/70'>Contáctame directamente a <a className='underline' href='mailto:nicolaslamberto2840@gmail.com'>nicolaslamberto2840@gmail.com</a> o completa el formulario.</p>
+            <p className=' text-gray-400 text-sm'>(La version gratuita del hosting de Vercel no permite librerias de terceros para el envio de mails,</p>
+            <p className=' text-gray-400 text-sm'>por lo que la lógica del código esta comentado en el repositorio de GitHub)</p>
+            <form /* Aqui iria la logica para enviar los mails, de la siguiente manera:
 
-            <form action={async (formData) => {
-                await sendEmail(formData)
-            }}
+                        action={async (formData) => {
+                        await sendEmail(formData)
+                        }} 
+
+                */
                 className=' mt-10 flex flex-col'>
                 <input name='senderEmail' required placeholder='Your e-mail' className=' dark:bg-gray-800 h-14 p-4 rounded-lg border border-black/10 ' type='email' />
                 <textarea name='message' required placeholder='Your message' className='dark:bg-gray-800 p-4 h-52 my-3 rounded-lg border border-black/10' />
