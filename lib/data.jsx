@@ -15,15 +15,15 @@ import openai from '@/public/openai.png'
 
 export const links = [
   {
-    name: "Home",
+    name: "Inicio",
     hash: "#home",
   },
   {
-    name: "About",
+    name: "Sobre mi",
     hash: "#about",
   },
   {
-    name: "Projects",
+    name: "Proyectos",
     hash: "#projects",
   },
   {
@@ -31,7 +31,7 @@ export const links = [
     hash: "#skills",
   },
   {
-    name: "Contact",
+    name: "Contacto",
     hash: "#contact",
   },
 ];

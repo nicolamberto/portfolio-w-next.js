@@ -22,7 +22,7 @@ export default function Contact() {
             transition={{ duration: 0.4 }}
             viewport={{ once: true }}
         >
-            <SectionHeading>Contact Me</SectionHeading>
+            <SectionHeading>contacto</SectionHeading>
             <p className=' text-gray-700 -mt-6 dark:text-white/70'>Contáctame directamente a <a className='underline' href='mailto:nicolaslamberto2840@gmail.com'>nicolaslamberto2840@gmail.com</a> o completa el formulario.</p>
             <p className=' text-gray-400 text-sm'>(La version gratuita del hosting de Vercel no permite librerias de terceros para el envio de mails,</p>
             <p className=' text-gray-400 text-sm'>por lo que la lógica del código esta comentado en el repositorio de GitHub)</p>
