@@ -12,6 +12,7 @@ import photopaty from '@/public/photopaty.png'
 import portfolioreact from '@/public/portfolioreact.png'
 import tictactoe from '@/public/tictactoe.png'
 import openai from '@/public/openai.png'
+import ecommercemacowens from '@/public/ecommercemacowens.png'
 
 export const links = [
   {
@@ -37,6 +38,13 @@ export const links = [
 ];
 
 export const projectsData = [
+  {
+    title: "Copia Macowens",
+    description:
+      "Copia del e-commerce 'Macowens' pensado para perfeccionar habilidades con Next JS, Tailwind CSS, enrutado por carpetas y organización de la lógica ",
+    tags: ["Next JS", "Tailwind CSS"], 
+    imageUrl: ecommercemacowens,
+  },
   {
     title: "Ropinha Ecommerce",
     description:
