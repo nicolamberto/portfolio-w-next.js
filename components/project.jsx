@@ -118,7 +118,7 @@ export default function Project({
                     <div
                         className="absolute top-9 hidden w-[34.25rem] lg:block
                        -right-48 lg:-right-28
-                       group-even:right-[initial] group-even:-left-48 lg:group-even:-left-28 z-10"
+                       group-even:right-[initial] group-even:-left-48 lg:group-even:-left-28 z-0"
                     >
                         <Image
                             src={posterUrl}
