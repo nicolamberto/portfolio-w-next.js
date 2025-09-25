@@ -157,6 +157,7 @@ export default function Project({
                             loop
                             playsInline
                             preload="none"
+                            poster={posterUrl}
                         />
                     </div>
                 )}

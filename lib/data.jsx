@@ -63,7 +63,7 @@ export const projectsData = [
       "Pixel-perfect y responsive 100%.",
     ],
     tags: ["Next.js", "Tailwind", "Strapi", "Core Web Vitals"],
-    posterUrl: "/alonacover.webp",
+    posterUrl: "/covervideoalona.png",
     videoUrl: "/videos/portfolioalona.mp4",
   },
   {
