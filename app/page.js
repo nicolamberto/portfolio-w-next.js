@@ -9,12 +9,12 @@ import Skills from "@/components/skills";
 export default function Home() {
   return (
     <main className="flex flex-col justify-center items-center px-4">
-      <Intro/>
-      <SectionDivider/>
-      <About/>
-      <Projects/>
-      <Skills/>
-      <Contact/>
+      <Intro />
+      <SectionDivider />
+      <About />
+      <Projects />
+      <Skills />
+      <Contact />
     </main>
   );
 }

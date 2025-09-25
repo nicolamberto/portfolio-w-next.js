@@ -16,7 +16,7 @@ export default function Contact() {
         <motion.section
             ref={ref}
             id='contact'
-            className=' text-center mb-20 sm:mb-28 w-[min(100%, 38rem)] '
+            className=' text-center mb-20 sm:mb-28 w-full max-w-[60rem] '
             initial={{ opacity: 0 }}
             whileInView={{ opacity: 1 }}
             transition={{ duration: 0.4 }}
@@ -24,8 +24,6 @@ export default function Contact() {
         >
             <SectionHeading>contacto</SectionHeading>
             <p className=' text-gray-700 -mt-6 dark:text-white/70'>Contáctame directamente a <a className='underline' href='mailto:nicolaslamberto2840@gmail.com'>nicolaslamberto2840@gmail.com</a> o completa el formulario.</p>
-            <p className=' text-gray-400 text-sm'>(La version gratuita del hosting de Vercel no permite librerias de terceros para el envio de mails,</p>
-            <p className=' text-gray-400 text-sm'>por lo que la lógica del código esta comentado en el repositorio de GitHub)</p>
             <form /* Aqui iria la logica para enviar los mails, de la siguiente manera:
 
                         action={async (formData) => {

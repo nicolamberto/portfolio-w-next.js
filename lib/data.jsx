@@ -37,67 +37,90 @@ export const links = [
   },
 ];
 
+// src/data/projectsData.js
+
 export const projectsData = [
   {
-    title: "Copia Macowens",
-    description:
-      "Copia del e-commerce 'Macowens' pensado para perfeccionar habilidades con Next JS, Tailwind CSS, enrutado por carpetas y organización de la lógica ",
-    tags: ["Next JS", "Tailwind CSS"], 
-    imageUrl: ecommercemacowens,
+    title: "We Nima — Landing Page",
+    period: "Sep 2025 – Presente",
+    url: 'https://wenimaestudio.com/', // agregá link cuando esté online
+    bullets: [
+      "Landing orientada a conversión.",
+      "Next.js + Tailwind + Motion.",
+      "SEO técnico y Core Web Vitals.",
+    ],
+    tags: ["Next.js", "Tailwind", "Framer Motion", "SEO", "CWV"],
+    posterUrl: "/wenimacover.webp",
+    videoUrl: "/videos/portfoliowenima.mp4",
   },
   {
-    title: "Ropinha Ecommerce",
-    description:
-      "Proyecto de e-commerce pensado para trabajar en un proyecto de backend con Node JS, completamente funcional.",
-    tags: ["React", "Material UI"],
-    imageUrl: ecommercereact,
+    title: "ALOÑA — Desarrollo Web (mejoras continuas)",
+    period: "Feb 2025 – Presente",
+    url: "https://www.alona.com.ar/",
+    bullets: [
+      "Evolución del sitio por sprints.",
+      "CMS de Blog en progreso.",
+      "Pixel-perfect y responsive 100%.",
+    ],
+    tags: ["Next.js", "Tailwind", "Strapi", "Core Web Vitals"],
+    posterUrl: "/alonacover.webp",
+    videoUrl: "/videos/portfolioalona.mp4",
   },
   {
-    title: "Photopaty",
-    description:
-      "Proyecto de consumo de Unsplash API. Página principal con un conjunto de fotos aleatorias y buscador funcional.",
-    tags: ["HTML", "CSS", "JavaScript"],
-    imageUrl: photopaty,
+    title: "Supply Argentina — Desarrollo Web",
+    period: "Ene 2025 – Feb 2025",
+    url: "https://supplyargentina.com.ar/",
+    bullets: [
+      "Sitio completo para plásticos.",
+      "CMS autogestionable de productos.",
+      "Performance + SEO on-page.",
+    ],
+    tags: ["Next.js", "Tailwind", "Strapi", "SEO"],
+    posterUrl: "/supplycover.webp",
+    videoUrl: "/videos/portfoliosupply.mp4",
   },
   {
-    title: "OpenAI",
-    description:
-      "Consumo de OpenAI API, la a través de la cual distintos headers puede crearse una inteligencia artificial a medida.",
-    tags: ["React", "Material UI"],
-    imageUrl: openai ,
+    title: "BelYoga — Desarrollo Web",
+    period: "Dic 2024 – Ene 2025",
+    url: "https://www.belyogaespacio.com/",
+    bullets: [
+      "Web completa en colaboración.",
+      "Usabilidad mobile prioritaria.",
+      "Responsive 100% y SEO base.",
+    ],
+    tags: ["Next.js", "Tailwind", "Accesibilidad", "SEO"],
+    posterUrl: "/belyogacover.webp",
+    videoUrl: "/videos/portfoliobelyoga.mp4",
   },
   {
-    title: "TicTacToe",
-    description:
-      "Proyecto de ta-te-ti creado de forma manual con animaciones con puro CSS para controlar y manejar arrays.",
-    tags: ["React", "CSS", "JavaScript"],
-    imageUrl: tictactoe ,
-  },
-  {
-    title: "First Portfolio",
-    description:
-      "Primer portfolio personal con animaciones realizadas sin libreria en CSS.",
-    tags: ["HTML", "CSS", "JavaScript"],
-    imageUrl: oldportfolio ,
-  },
-  {
-    title: "Portfolio React",
-    description:
-      "Segundo portfolio realizado con ReactJS como base, MUI como libreria de diseño y Framer Motion para las animaciones.",
-    tags: ["React", "Material UI", "Framer Motion"],
-    imageUrl: portfolioreact ,
+    title: "Soluciones Digitales — Chatbots con n8n",
+    period: "Ago 2025 – Presente",
+    url: undefined, // sin link = sin botón
+    bullets: [
+      "Chatbots para WhatsApp y web.",
+      "Integración con APIs de IA.",
+      "Captura y scoring de leads.",
+    ],
+    tags: ["n8n", "WhatsApp", "OpenAI", "Automatización"],
+    posterUrl: "/makecover.webp",
+    videoUrl: "/videos/portfoliomake.mp4",
   },
 ];
 
+
 export const skillsData = [
-  "HTML",
-  "CSS",
+  "React.Js",
+  "Next.Js",
   "JavaScript",
-  "React",
-  "Next.js",
   "Git",
-  "Tailwind",
-  "Bootstrap",
+  "Supabase",
+  "Firebase",
+  "Strapi",
+  "API REST",
+  "Tailwind CSS",
   "Material UI",
+  "Bootstrap",
   "Framer Motion",
+  "GSAP",
+  "React Lenis",
 ];
