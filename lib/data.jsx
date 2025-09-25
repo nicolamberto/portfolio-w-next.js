@@ -50,7 +50,7 @@ export const projectsData = [
       "SEO técnico y Core Web Vitals.",
     ],
     tags: ["Next.js", "Tailwind", "Framer Motion", "SEO", "CWV"],
-    posterUrl: "/wenimacover.webp",
+    posterUrl: "/coverwenima.png",
     videoUrl: "/videos/portfoliowenima.mp4",
   },
   {
@@ -76,7 +76,7 @@ export const projectsData = [
       "Performance + SEO on-page.",
     ],
     tags: ["Next.js", "Tailwind", "Strapi", "SEO"],
-    posterUrl: "/supplycover.webp",
+    posterUrl: "/coversupply.png",
     videoUrl: "/videos/portfoliosupply.mp4",
   },
   {
@@ -89,7 +89,7 @@ export const projectsData = [
       "Responsive 100% y SEO base.",
     ],
     tags: ["Next.js", "Tailwind", "Accesibilidad", "SEO"],
-    posterUrl: "/belyogacover.webp",
+    posterUrl: "/coverbelyoga.png",
     videoUrl: "/videos/portfoliobelyoga.mp4",
   },
   {
@@ -102,7 +102,7 @@ export const projectsData = [
       "Captura y scoring de leads.",
     ],
     tags: ["n8n", "WhatsApp", "OpenAI", "Automatización"],
-    posterUrl: "/makecover.webp",
+    posterUrl: "/covermake.png",
     videoUrl: "/videos/portfoliomake.mp4",
   },
 ];
